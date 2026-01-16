@@ -1,0 +1,120 @@
+This document lists commonly used commands during authorized
+network and web security assessments. The commands focus on
+reconnaissance, enumeration, configuration validation, and
+evidence collection.
+
+All commands are intended for educational purposes and
+authorized testing only.
+
+---
+
+## Reconnaissance
+
+cmd
+ping example.com
+
+
+Checks host availability and basic network reachability.
+
+cmd
+tracert example.com
+
+
+Identifies the network path and potential filtering points.
+
+
+
+## Network Enumeration
+
+cmd
+ipconfig /all
+
+
+Displays local network configuration and DNS settings.
+
+cmd
+netstat -ano
+
+
+Lists active network connections and listening services.
+
+cmd
+tasklist
+
+
+Enumerates running processes for correlation with open ports.
+
+
+
+## Web Security Checks
+
+cmd
+curl -I https://example.com
+
+
+Retrieves HTTP response headers to identify security-related
+configurations such as CSP, HSTS, and framing protections.
+
+cmd
+curl -I -L http://example.com
+
+
+Checks redirection behavior and HTTPS enforcement.
+
+cmd
+curl -v https://example.com
+
+
+Provides detailed request and response information for analysis.
+
+
+
+## SSL / TLS Validation
+
+cmd
+openssl s_client -connect example.com:443
+
+
+Displays SSL/TLS certificate details, supported protocols,
+and handshake information.
+
+
+
+## DNS Enumeration
+
+cmd
+nslookup example.com
+
+
+Retrieves DNS records and validates name resolution behavior.
+
+
+
+## System Information
+
+cmd
+systeminfo
+
+
+Displays operating system and patch-level information.
+
+cmd
+whoami
+
+Identifies the current user context.
+
+
+## Notes
+
+These commands are typically used as part of a broader
+security assessment process and are combined with manual
+analysis and reporting to identify potential risks.
+
+
+
+## Disclaimer
+
+All commands in this document are for educational use and
+authorized security testing only. Unauthorized use against
+systems without explicit permission is prohibited.
+

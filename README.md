@@ -19,6 +19,3 @@ This repository showcases my **web application penetration testing work**, focus
 - `scripts/` → Sample commands or scripts used for testing  
 - `screenshots/` → Proof-of-concept images demonstrating vulnerabilities  
 
-## Disclaimer
-This repository is for **educational and professional demonstration purposes only**. All testing was performed in a **legal lab environment (OWASP Juice Shop)**. Do not use these methods on unauthorized systems.# web-penetration-testing-portfolio
-Portfolio of web application penetration testing reports and skills

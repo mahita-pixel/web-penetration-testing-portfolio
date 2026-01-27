@@ -45,18 +45,5 @@ All testing activities were conducted in **authorized lab environments** for edu
 - Kali Linux
 
 
-Repository Structure
-
-reports/
-│ └── Professional PDF penetration testing reports
-│
-scripts/
-│ └── Reconnaissance, scanning, and testing scripts
-│
-screenshots/
-│ └── Proof-of-concept evidence for identified vulnerabilities
-│
-disclaimer.md
-│ └── Legal and ethical usage disclaim
 
 

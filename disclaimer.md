@@ -9,7 +9,7 @@ All security testing techniques, tools, and examples documented here were perfor
 
 No testing was conducted against real-world systems without explicit permission.
 
-The author does not encourage or support unauthorized access, exploitation, or misuse of
+I  don't encourage or support unauthorized access, exploitation, or misuse of
 any system, network, or application.
 
 Any resemblance to real systems is purely coincidental.

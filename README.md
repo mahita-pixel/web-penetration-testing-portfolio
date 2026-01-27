@@ -1,21 +1,62 @@
-# Web Penetration Testing Portfolio
+Web Application Penetration Testing Portfolio
 
-This repository showcases my **web application penetration testing work**, focusing on identifying and documenting vulnerabilities based on **OWASP Top 10 standards**. It demonstrates my approach to security testing, risk assessment, and remediation guidance.
+This repository demonstrates my practical experience in **web application penetration testing**, with a focus on identifying, validating, and documenting security vulnerabilities aligned with the **OWASP Top 10**.
 
-## Project Overview
-- Conducted both **automated and manual penetration testing** on web applications.
-- Identified critical vulnerabilities such as **SQL Injection, XSS, broken access control, and sensitive data exposure**.
-- Created **professional PDF reports** with proof-of-concept screenshots, severity ratings, and remediation recommendations.
+It is designed to showcase how I approach **real-world security assessments**, deliver **clear and actionable findings**, and help organizations reduce risk through effective remediation guidance.
 
-## Skills Demonstrated
-- Web Application Security Testing  
-- Penetration Testing (OWASP Top 10)  
-- Vulnerability Assessment & Analysis  
-- Ethical Hacking  
-- Security Reporting & Remediation Guidance  
 
-## Repository Structure
-- `reports/` → PDF penetration testing reports  
-- `scripts/` → Sample commands or scripts used for testing  
-- `screenshots/` → Proof-of-concept images demonstrating vulnerabilities  
+Scope of Work
+
+- Manual and automated penetration testing of web applications
+- Identification of common and critical vulnerabilities, including:
+  - SQL Injection (SQLi)
+  - Cross-Site Scripting (XSS)
+  - Broken Access Control (IDOR)
+  - Authentication & Session Management Flaws
+  - Security Misconfigurations
+  - Sensitive Data Exposure
+- Risk-based vulnerability analysis with severity classification
+- Clear proof-of-concept (PoC) evidence and remediation recommendations
+
+All testing activities were conducted in **authorized lab environments** for educational and demonstration purposes.
+
+
+
+ Skills & Expertise
+
+- Web Application Security Testing
+- OWASP Top 10 Vulnerability Assessment
+- Manual & Automated Penetration Testing
+- Vulnerability Validation & Risk Assessment
+- Ethical Hacking Methodologies
+- Professional Security Reporting
+- Secure Configuration & Remediation Guidance
+
+
+
+ Tools & Technologies
+
+- Burp Suite
+- Nmap
+- Gobuster / FFUF
+- Nikto
+- SQLmap
+- OWASP Juice Shop, DVWA (Lab Environments)
+- Kali Linux
+
+
+Repository Structure
+
+reports/
+│ └── Professional PDF penetration testing reports
+│
+scripts/
+│ └── Reconnaissance, scanning, and testing scripts
+│
+screenshots/
+│ └── Proof-of-concept evidence for identified vulnerabilities
+│
+disclaimer.md
+│ └── Legal and ethical usage disclaim
+
 
